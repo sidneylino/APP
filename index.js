@@ -3,4 +3,4 @@ const mensagem = "ola eu"
 {
     const mensagem = "ola mundo"
 }
-console.log("hello world!")
+console.log(mensagem) //aparece ola eu e dps ola mundo
