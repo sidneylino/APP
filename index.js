@@ -1,17 +1,19 @@
-// arrays, objetos:
+const start = () => {
 
-//array
-let meta = {
-    value: "ler um livro por mês",
-    checked: true,
-}
-//objeto
-let metas = [
-    meta,
-    {
-        value: "ler um livro por mes",
-        checked: false,
+    while(true){
+        let opcao = "sair"
+        switch (opcao) {
+            case "cadastrar":
+                console.log('vamos cadastrar') // faz loop
+                break
+
+            case "listar":
+                console.log('vamos listar') // faz loop
+                break
+
+            case "sair":
+                return
+        }
     }
-]
-
-console.log(metas[1].value)
+}
+start()
