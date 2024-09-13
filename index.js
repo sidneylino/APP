@@ -34,8 +34,8 @@ const listarMetas = async () => {
     metas.forEach((m) => {
         m.checked = false
     })
-    
-    respostas.forEach((respostas) => {
+
+    respostas.forEach((resposta) => {
         const meta = metas.find((m) => {
             return m.value == resposta
         })
@@ -75,7 +75,7 @@ const start = async() => {
                 break
 
             case "listar":
-                listarMetas()
+                await listarMetas()
                 break
 
             case "sair":
