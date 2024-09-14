@@ -89,7 +89,7 @@ const deletarMetas = async () => {
     })
 
     if(itemsADeletar.length == 0) {
-        console.log("Nenhum item a deletar!")
+        console.log("Nenhum item para deletar!")
         return
     }
 }
