@@ -14,3 +14,5 @@ biblioteca inquirer p criar prompts interativos
 
 uso de funções assincronas(async, await)
 
+metodos de array: push, [find. forEach, filter] : HOF (Higher Order Function)
+
