@@ -6,6 +6,8 @@ tipos de dados
 strings - textos ''   ""   ``
 number 1   2.4
 
+while 
+
 switch
 if else
 
@@ -14,5 +16,5 @@ biblioteca inquirer p criar prompts interativos
 
 uso de funções assincronas(async, await)
 
-metodos de array: push, [find. forEach, filter] : HOF (Higher Order Function)
+metodos de array: push, [find. forEach, filter, map] : HOF (Higher Order Function)
 
