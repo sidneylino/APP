@@ -57,7 +57,7 @@ const metasRealizadas = async () => {
     }
 
     await select({
-        message: "Metas realizadas " + realizadas.length,
+        message: "Metas realizadas: " + realizadas.length,
         choices: [...realizadas]
     })
 }
@@ -72,7 +72,7 @@ const metasAbertas = async () => {
     }
 
     await select({
-        message: "Metas Abertas "+ abertas.length,
+        message: "Metas Abertas: "+ abertas.length,
         choices: [...abertas]
     })
 }
@@ -92,6 +92,13 @@ const deletarMetas = async () => {
         console.log("Nenhum item para deletar!")
         return
     }
+
+    itemsADeletar.forEach((item) => {
+        metas = metas.filter((meta) => {
+            return meta.value != item
+        })
+    })
+    console.log("Meta(s) deletada(s) com sucesso!")
 }
 
 const start = async() => {
